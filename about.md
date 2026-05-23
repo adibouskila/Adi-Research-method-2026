@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Marine Biology B.Sc. graduate (2025) with a background in volunteer coordination, environmental education, and animal care. Highly motivated, organized, and solution-oriented, with a strong interest in marine wildlife studies, environmental conservation, and marine ecosystems.
+Marine Biology B.Sc. graduate (2025) and M.Sc. student in Marine Biology at the University of Haifa, with a background in volunteer coordination, environmental education, and animal care. Highly motivated, organized, and solution-oriented, with a strong interest in marine wildlife studies, environmental conservation, and marine ecosystems.
 
 
 ### More Information
@@ -17,18 +17,25 @@ Marine animal behavior, marine ecosystems and biodiversity, environmental conser
 
 
 ## <center>ADI BOUSKILA</center>
-<center>Marine Biology B.Sc. Graduate</center>
+<center>Marine Biology B.Sc. Graduate | M.Sc. Student in Marine Biology</center>
 <center>Beit Hanania, Israel</center>
 <center>Phone: +972-54-5689277 | Email: adibouskila8@gmail.com</center>
 
 
 ### EDUCATION
+Current | **University of Haifa**   
+	- M.Sc. student   
+		- Marine Biology   
+
 2025 | **Ruppin Academic Center**   
 	- Bachelor of Science (B.Sc.)   
 		- Marine Science   
 
 
 ### CERTIFICATIONS
+Current | **Scientific Diver – Level 1** | **American Academy of Underwater Sciences (AAUS)**   
+	- Scientific diving: diving performed solely as a necessary part of scientific activity   
+
 2022 | **Israeli Boat Operator License – Level 12**   
 	- Boat Operator License   
 
