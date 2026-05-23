@@ -4,7 +4,6 @@ title: "eDNA Water Sampling Protocol for Sperm Whale Detection"
 date: 2026-05-01
 ---
 
-# eDNA Water Sampling Protocol for Sperm Whale Detection
 
 ## Introduction
 
