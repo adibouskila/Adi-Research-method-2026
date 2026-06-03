@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Primer Design and Phylogenetic Analysis of Ulva lactuca Using the rbcL Gene"
-date: 2026-06-03
+date: 2026-06-02
 ---
 
 # Primer Design and Phylogenetic Analysis of *Ulva lactuca* Using the rbcL Gene
