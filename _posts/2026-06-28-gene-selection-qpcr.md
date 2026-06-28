@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Gene Selection for qPCR Analysis in the Sperm Whale"
+date: 2026-06-28
+categories: qPCR
+tags: [qPCR, gene-expression, sperm-whale, pollution]
+---
+
 # Gene Selection for qPCR Analysis in the Sperm Whale (*Physeter macrocephalus*)
 
 ## General Background
