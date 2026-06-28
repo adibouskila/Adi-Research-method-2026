@@ -5,7 +5,7 @@ title: "Relative Quantification in qPCR Using the Delta-Delta Ct Method"
 date: 2026-06-28
 categories: qPCR
 tags: [qPCR, relative-quantification, delta-delta-ct, gene-expression]
-----------------------------------------------------------------------
+---
 
 # Relative Quantification in qPCR Using the Delta-Delta Ct Method
 
