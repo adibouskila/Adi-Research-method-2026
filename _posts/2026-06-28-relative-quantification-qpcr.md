@@ -95,6 +95,7 @@ The following table summarizes the calculated ΔΔCt and fold-change values for 
 ##  Graph
 
 ![Relative gene expression graph](/Adi-Research-method-2026/images/qpcr_fold_change_graph.png)
+
 The graph shows the relative expression of each target gene in the inhibitor treatment compared with the DMSO control. The DMSO control is used as the baseline and is represented by a relative expression value of 1.
 
 Genes with values above 1 showed increased expression in the inhibitor treatment, while genes with values below 1 showed decreased expression.
