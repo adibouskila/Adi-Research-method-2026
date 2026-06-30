@@ -1,3 +1,11 @@
+---
+title: "Photophysiology Analysis: Light vs. Dark Algal Samples"
+date: "2026-06-30"
+author: "Adi"
+description: "Analysis of photophysiology parameters in algal samples exposed to dark and light treatments."
+tags: ["photophysiology", "algae", "photosynthesis", "R", "statistics"]
+---
+
 # Photophysiology Analysis: Light vs. Dark Algal Samples
 
 ## Overview
@@ -43,6 +51,8 @@ Two samples appeared in the metadata but were not included in the final analysis
 
 ## Photophysiology Parameters
 
+The analysis focused on four fitted photophysiology parameters:
+
 | Parameter | Meaning |
 |---|---|
 | `Am` | **Maximum photosynthetic rate**. This represents the estimated maximum photosynthetic or electron transport capacity of the sample. |
@@ -52,19 +62,38 @@ Two samples appeared in the metadata but were not included in the final analysis
 
 ## Data Preparation
 
+The analysis used fitted photophysiology parameter files from the Dark and Light treatments, together with a sample metadata file.
+
 The original files used were:
 
 - `dark_group_photo_parameters.csv`
 - `light_group_photo_parameters.csv`
 - `Photophysiology_metadata.csv`
 
-The data were reorganized into tidy format, where each row represents one sample, one treatment, one parameter, and one value. This format is suitable for analysis in R.
+The data were reorganized into a tidy format, where each row represents one sample, one treatment, one parameter, and one value. This structure is suitable for statistical analysis in R.
+
+The final organized dataset was saved as:
+
+- `Photophysiology_ready_for_R.csv`
+
+An Excel version with a ReadMe sheet explaining the parameters and units was also created:
+
+- `Photophysiology_ready_for_R.xlsx`
 
 ## Statistical Analysis
 
 The statistical analysis was performed in R.
 
-For each parameter, summary statistics were calculated separately for the Dark and Light treatments. These included sample size, mean, standard deviation, minimum, quartiles, median, and maximum.
+For each parameter, summary statistics were calculated separately for the **Dark** and **Light** treatments. These included:
+
+- sample size
+- mean
+- standard deviation
+- minimum
+- first quartile
+- median
+- third quartile
+- maximum
 
 Two statistical tests were used to compare the treatments:
 
@@ -82,19 +111,19 @@ Because four different parameters were tested, p-values were adjusted using the 
 
 This figure shows boxplots and individual sample points for each photophysiology parameter in the Dark and Light treatments.
 
-![Figure 1: Boxplots](Figure_1_boxplots.png)
+![Figure 1: Boxplots](../images/Figure_1_boxplots.png)
 
 ## Figure 2. QQ Plots
 
 This figure shows QQ plots used to visually inspect whether the data strongly deviate from normality.
 
-![Figure 2: QQ plots](Figure_2_QQ_plots.png)
+![Figure 2: QQ plots](../images/Figure_2_QQ_plots.png)
 
 ## Figure 3. Mean Values ± Standard Error
 
 This figure summarizes the mean value of each parameter for the Dark and Light treatments, with standard error bars.
 
-![Figure 3: Means and SE](Figure_3_means_SE.png)
+![Figure 3: Means and SE](../images/Figure_3_means_SE.png)
 
 ## Results
 
@@ -167,7 +196,12 @@ Dark-treated samples tended to show higher apparent quantum yield, represented b
 
 However, the statistical tests did not show significant differences after correction for multiple testing. Therefore, these results should be interpreted as biological trends rather than confirmed treatment effects.
 
-The lack of statistical significance may be due to small sample size, high variability among samples, differences between algal taxa, and natural biological variation.
+The lack of statistical significance may be due to:
+
+- small sample size
+- high variability among samples
+- differences between algal taxa
+- natural biological variation
 
 ## Conclusion
 
@@ -176,3 +210,32 @@ This analysis shows that algal samples from Light and Dark treatments may differ
 The Light samples showed trends toward higher maximum photosynthetic capacity and higher saturation irradiance. The Dark samples showed a trend toward higher low-light photosynthetic efficiency.
 
 Overall, the results suggest that light conditions may influence photophysiological traits. However, because the differences were not statistically significant, additional samples would be needed to confirm this pattern.
+
+## Files Included
+
+| File | Description |
+|---|---|
+| `Photophysiology_ready_for_R.csv` | Clean tidy dataset ready for R |
+| `Photophysiology_ready_for_R.xlsx` | Excel version with ReadMe tab |
+| `photophysiology_analysis.R` | R script used for the analysis |
+| `photophysiology_summary_table.csv` | Summary statistics |
+| `photophysiology_Welch_test_results.csv` | Welch t-test results |
+| `photophysiology_Mann_Whitney_results.csv` | Mann-Whitney test results |
+| `Figure_1_boxplots.png` | Boxplots and sample points |
+| `Figure_2_QQ_plots.png` | QQ plots |
+| `Figure_3_means_SE.png` | Mean ± SE plot |
+| `R_package_versions.csv` | R package versions |
+| `R_session_info.txt` | Full R session information |
+| `Photophysiology_report.md` | Full methods, results, and interpretation report |
+
+## R Packages Used
+
+The analysis used the following R packages:
+
+- `dplyr`
+- `purrr`
+- `broom`
+- `tidyr`
+- `rstatix`
+- `ggplot2`
+- `readr`
